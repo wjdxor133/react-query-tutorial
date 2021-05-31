@@ -48,7 +48,7 @@ const Planets = () => {
               <Planet key={planet.name} planet={planet} />
             ))}
           </div>
-          {isFetching ? <span> Loading...</span> : null}{" "}
+          {isFetching ? <span> Loading...</span> : null}
         </div>
       )}
     </>
